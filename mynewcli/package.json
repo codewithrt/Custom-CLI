@@ -1,7 +1,7 @@
 {
   "author": "codewithrt @codewithrt",
   "bin": {
-    "mynewcli": "./bin/run.js"
+    "Friday": "./bin/run.js"
   },
   "dependencies": {
     "@oclif/core": "^3",
@@ -36,13 +36,13 @@
     "/dist",
     "/oclif.manifest.json"
   ],
-  "homepage": "https://github.com/codewithrt/mynewcli",
+  "homepage": "https://github.com/codewithrt/Friday",
   "license": "MIT",
   "main": "",
-  "name": "mynewcli",
+  "name": "Friday",
   "oclif": {
-    "bin": "mynewcli",
-    "dirname": "mynewcli",
+    "bin": "Friday",
+    "dirname": "Friday",
     "commands": "./dist/commands",
     "plugins": [
       "@oclif/plugin-help",
@@ -55,7 +55,7 @@
       }
     }
   },
-  "repository": "codewithrt/mynewcli",
+  "repository": "codewithrt/Friday",
   "scripts": {
     "build": "shx rm -rf dist && tsc -b",
     "lint": "eslint . --ext .ts",
@@ -67,7 +67,7 @@
     "version": "oclif readme && git add README.md"
   },
   "version": "0.0.0",
-  "bugs": "https://github.com/codewithrt/mynewcli/issues",
+  "bugs": "https://github.com/codewithrt/Friday/issues",
   "keywords": [
     "oclif"
   ],
